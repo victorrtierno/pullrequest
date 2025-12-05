@@ -13,5 +13,8 @@ public class Personaje {
     public static void main(String[] args) {
         Personaje jugador = new Personaje("Trevor", 500);
         jugador.mostrarInfo();
+
+        GestionarDinero.gastarDinero(100);
+        SubirNivel.subirDeNivel(2);
     }
 }
